@@ -1,0 +1,25 @@
+.menuBtn{
+    display: block;
+    font-family: 'Cutive Mono', serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+    background-color: transparent;
+    margin: 10% 0;    
+    padding: 20px 0;
+    color: #ffffff;
+    text-decoration: none;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.menuBtn:hover{
+    cursor: pointer;
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0; 
+    letter-spacing: 5px;
+}
+
+

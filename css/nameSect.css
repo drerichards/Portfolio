@@ -1,0 +1,44 @@
+  .nameDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 12%;
+    font-family: 'Cutive Mono', sans-serif;
+    text-shadow: 4px 4px 5px #000;
+  }
+
+  .nameDisplay h3 {
+    font-size: 3em;
+    margin-bottom: 0;
+    font-weight: 200;
+    position: relative;
+  }
+
+  .nameDisplay h1 {
+    margin: 5% 5% 4%;
+    font-size: 5em;
+    font-family: 'Special Elite', serif;
+    font-weight: 100;
+    position: relative;
+  }
+
+  .nameDisplay h4 {
+    text-align: right;
+    margin-top: 0;
+    font-size: 2em;
+    font-weight: 100;
+    position: relative;
+  }
+
+    .circle {
+    height: 22em;
+    width: 24em;
+    background-color: red;
+    border-radius: 100%;
+    opacity: 0.425;
+    position: absolute;
+    top: 34.5%;
+    left: 31%;
+  }
