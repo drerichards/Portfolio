@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Gilda+Display|Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Special+Elite|Cormorant');
 
 .pageContainer{
-    width: 60vw;
+    width: 65vw;
     height: 100vh;
     align-items: center;
     display: flex;
@@ -11,13 +11,13 @@
 }
 
 .horizBar{
-    background-color: rgba(42, 42, 42, 0.76);
+    background-color: rgba(80, 80, 80, 0.56);
     width: 25%;
     height: 100%;
 }
 
 .innerBar{
-    background-color: rgba(10, 10, 10, 0.76);
+    background-color: rgba(0, 0, 0, 0.86);
     width: 95%;
     height: 100%;
     margin: 0 auto;
@@ -28,5 +28,9 @@
 
   .headerBoxWrapper {
     width: 75%;
+    padding: 0 5%;
   }
   
+  .sectionContainer, .aboutSection, .contactSection, .projectSection{
+      display: none;
+  }

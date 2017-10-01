@@ -1,0 +1,44 @@
+  .contactForm {
+    overflow: hidden;
+  }
+
+  .contactForm h2 {
+    text-align: right;
+    font-weight: lighter;
+    font-size: 1.2em;
+    font-family: 'Cutive Mono', sans-serif;
+}
+
+  .contactForm label {
+    display: block;
+    padding: 2% 0 0;
+  }
+  
+  .contactForm input, textarea {
+    padding-left: 1%;
+    color: #000;    
+  }
+
+  .contactForm input:nth-child(-n+5) {
+    width: 50%;
+  }
+  
+  .contactForm textarea {
+    width: 100%;
+    min-height: 100px;
+  }
+  
+  #submit {
+    color: #fff;
+    padding: 0;
+    width: 10%;
+    float: right;
+    background-color: rgba(116, 164, 188, 0.4);
+    -webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+  }
+
+  #submit:hover{
+    cursor: pointer;
+    background-color: rgba(70, 99, 112, 0.4);
+  }

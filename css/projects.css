@@ -1,0 +1,71 @@
+    @media screen and (min-width: 320px) {
+      .hide {
+            display: none;
+    }
+
+      .projectSection {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+            margin: auto 0;
+      }
+
+      .projectSection::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: '';
+            opacity: 0;
+            -webkit-transition: opacity 0.6s;
+            transition: opacity 0.6s;
+            -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+            transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+            pointer-events: none;
+      }
+
+      .projectGrid{
+            text-align: center;
+      }
+
+      .projectBox {
+            display: inline-block;
+            margin: 2% auto;
+            width: 45%;
+            cursor: pointer;
+            background: #101010;
+      }
+
+      .projectBox img {
+            width: 100%;
+            margin: 3% 0;
+            opacity: 0.2;
+            -webkit-transform: scale3d(1.0, 1.0, 1);
+            transform: scale3d(1.0, 1.0, 1);
+            -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+            transition: transform 0.5s, opacity 0.5s;
+      }
+
+      .projectBox img:hover {
+            opacity: 1;
+            -webkit-transform: scale3d(0.9, 0.9, 1);
+            transform: scale3d(0.9, 0.9, 1);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+      .projectSection {
+            width: 80%;
+            height: 75%;
+      }
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      .projectSection {
+            width: 90%;
+            height: 75%;
+      }
+    }
