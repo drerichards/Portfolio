@@ -22,17 +22,13 @@
     letter-spacing: 5px;
 }
 
-.menuIcons {
-    text-align: center;
-    margin-top: 5%;
-}
-
-.menuIcons a {
-    margin: 0 1%;
-}
-
-.menuIcons img {
-    width: 12%;
+.selected {
+    border-top: 4px solid rgb(132, 159, 163);
+    border-bottom: 4px solid rgb(132, 159, 163);
+    padding: 6px 0; 
+    font-family: 'Special Elite', serif;
+    letter-spacing: 7px;
+    font-weight: lighter;
 }
 
 

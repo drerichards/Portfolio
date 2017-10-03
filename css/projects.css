@@ -34,14 +34,17 @@
             display: inline-block;
             margin: 2% auto;
             width: 45%;
+            height: 35%;
             cursor: pointer;
             background: #101010;
+            position: relative;
       }
 
       .projectBox img {
             width: 100%;
+            height: 100%;
             margin: 3% 0;
-            opacity: 0.2;
+            opacity: 0.4;
             -webkit-transform: scale3d(1.0, 1.0, 1);
             transform: scale3d(1.0, 1.0, 1);
             -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
@@ -53,6 +56,15 @@
             -webkit-transform: scale3d(0.9, 0.9, 1);
             transform: scale3d(0.9, 0.9, 1);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+      }
+
+      .projectBox span{
+            background-color: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            padding: 2% 0;
+            width: 100%;
+            bottom: -5%;
+            font-family: 'Cutive Mono', serif;
       }
     }
 

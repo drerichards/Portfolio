@@ -1,44 +1,47 @@
-  .contactForm {
-    overflow: hidden;
-  }
-
-  .contactForm h2 {
-    text-align: right;
+.contactSection h3 {
     font-weight: lighter;
     font-size: 1.2em;
-    font-family: 'Cutive Mono', sans-serif;
+  }
+
+  .contactSection h2 {
+    font-weight: lighter;
+    vertical-align: text-bottom;
+    font-family: 'Cutive Mono', serif;
+    display: inline-block;
 }
 
-  .contactForm label {
-    display: block;
-    padding: 2% 0 0;
-  }
-  
-  .contactForm input, textarea {
-    padding-left: 1%;
-    color: #000;    
+  .menuIcons {
+    margin-top: 2%;
   }
 
-  .contactForm input:nth-child(-n+5) {
-    width: 50%;
-  }
-  
-  .contactForm textarea {
-    width: 100%;
-    min-height: 100px;
-  }
-  
-  #submit {
-    color: #fff;
-    padding: 0;
-    width: 10%;
-    float: right;
-    background-color: rgba(116, 164, 188, 0.4);
-    -webkit-transition: .2s ease-in-out;
-	transition: .2s ease-in-out;
+  .menuIcons a {
+    margin-right: 6%;
   }
 
-  #submit:hover{
-    cursor: pointer;
-    background-color: rgba(70, 99, 112, 0.4);
-  }
+.menuIcons a {
+    margin: 0 1%;
+}
+
+.menuIcons img {
+    margin-top: 2%;  
+    width: 6%;
+    display: inline-block;
+    float: none;
+
+}
+
+.menuIcons img:hover {
+    left: 20px;
+}
+
+.menuIcons p{
+    display: inline-block;
+    margin: 0 0 1% 1%;
+    vertical-align: super;
+}
+
+.arrowEmail .contactArrow {
+    margin-top: 2%;
+    width: 3%;
+    float: none;
+}

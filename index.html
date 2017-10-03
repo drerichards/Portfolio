@@ -32,15 +32,10 @@
     <section class="pageContainer">
         <div class="horizBar">
             <div class="innerBar">
-                <button id="homeBtn" class="menuBtn">Home</button>
+                <button id="homeBtn" class="menuBtn selected">Home</button>
                 <button id="aboutBtn" class="menuBtn">About Me</button>
                 <button id="projectBtn" class="menuBtn">Projects</button>
                 <button id="contactBtn" class="menuBtn">Contact Me</button>
-                <div class="menuIcons">
-                    <a target="_blank" href="https://github.com/drerichards"><img src="http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_64/v1506848074/portfolio/github.png"
-                    alt="Github"></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/g-andre-richardson"><img src="http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_64/v1506848089/portfolio/linkedin.png" alt="LinkedIn"></a>
-                </div>
             </div>
         </div>
         <div class="headerBoxWrapper">
@@ -97,32 +92,47 @@
 
                     <div class="contactSection">
                         <h1>Contact Me</h1>
-                        <form class="contactForm">
-                            <h2>To: G.AndreRichards@gmail.com</h2>
-                            <label>Name</label>
-                            <input type="text" required id="nameEntry" name="name" />
-                            <label>Email</label>
-                            <input type="email" required id="emailEntry" name="email" />
-                            <label>Phone Number</label>
-                            <input type="tel" required id="numberEntry" name="phone" minlength="9" />
-                            <label>Message</label>
-                            <textarea name="message" required rows="10" placeholder="Type Your Message Here"></textarea>
-                            <input id="submit" name="submit" type="submit" value="Send" />
-                        </form>
+                        <h3>Want to reach out? Feel free to send a message to:</h3>
+                        <div class="arrowEmail">
+                            <img class="contactArrow" src="http://res.cloudinary.com/andrerichards/image/upload/a_270/v1506631996/portfolio/triangle.png"
+                                alt="Arrow">
+                            <h2>G.AndreRichards@gmail.com</h2>
+                        </div>
+                        <div class="menuIcons">
+                            <h6>Or check out more info below:</h6>
+                            <a target="_blank" href="https://github.com/drerichards">
+                                <img src="http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_64/v1506848074/portfolio/github.png"
+                                    alt="Github"><p>Github</p></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/g-andre-richardson" class="menuIcons">
+                                <img src="http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_64/v1506848089/portfolio/linkedin.png" 
+                                    alt="LinkedIn"><p>LinkedIn</p></a></div>
                     </div>
 
 
                     <div class="projectSection">
                         <h1>Projects</h1>
                         <div class="projectGrid">
+                            <a href="#" class="item" data-featherlight="#vendSlide">
+                                <div class="projectBox">
+                                    <img src="http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_500/v1507006014/portfolio/vendible.jpg" alt="Olivo Villas" />
+                                    <span>Vendible</span>
+                                </div>
+
+                                <div id="vendSlide" class="hide">
+                                    <img src="http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1100/v1506911218/portfolio/vendible2.jpg" style="width:100%">
+                                </div>
+                            </a>
+                            <!--  -->
+
                             <a href="#" class="item" data-featherlight="#avSlide">
                                 <div class="projectBox">
                                     <img src="http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_500/v1506632090/portfolio/avclub.jpg" alt="AV Club"
                                     />
+                                    <span>AV Club</span>
                                 </div>
 
                                 <div id="avSlide" class="hide">
-                                    <img src="http://res.cloudinary.com/andrerichards/image/upload/v1506632090/portfolio/avclub2.jpg" style="width:100%">
+                                    <img src="http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1100/v1506632090/portfolio/avclub2.jpg" style="width:100%">
                                 </div>
                             </a>
                             <!--  -->
@@ -131,10 +141,11 @@
                                 <div class="projectBox">
                                     <img src="http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_500/v1506632128/portfolio/spotify.jpg" alt="Spotify"
                                     />
+                                    <span>Spotify</span>
                                 </div>
 
                                 <div id="spotSlide" class="hide">
-                                    <img src="https://res.cloudinary.com/andrerichards/image/upload/v1506633468/portfolio/spotify3.jpg" style="width:100%">
+                                    <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,h_800/v1506633468/portfolio/spotify3.jpg" style="width:100%">
                                 </div>
                             </a>
                             <!--  -->
@@ -143,22 +154,11 @@
                                 <div class="projectBox">
                                     <img src="http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_500/v1506632084/portfolio/cquiz2.jpg" alt="Country Quiz"
                                     />
+                                    <span>Country Quiz</span>
                                 </div>
 
                                 <div id="quizSlide" class="hide">
-                                    <img src="http://res.cloudinary.com/andrerichards/image/upload/v1506633749/portfolio/cquiz3.jpg" style="width:100%">
-                                </div>
-                            </a>
-                            <!--  -->
-
-                            <a href="#" class="item" data-featherlight="#olivoSlide">
-                                <div class="projectBox">
-                                    <img src="http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_500/v1506632099/portfolio/olivo.jpg" alt="Olivo Villas"
-                                    />
-                                </div>
-
-                                <div id="olivoSlide" class="hide">
-                                    <img src="http://res.cloudinary.com/andrerichards/image/upload/v1506632099/portfolio/olivo2.jpg" style="width:100%">
+                                    <img src="http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506633749/portfolio/cquiz3.jpg" style="width:100%">
                                 </div>
                             </a>
                         </div>
@@ -168,8 +168,7 @@
         </div>
     </section>
 
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-        crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="http://cdn.rawgit.com/noelboss/featherlight/1.7.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript" src="js.js"></script>
