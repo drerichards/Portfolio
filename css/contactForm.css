@@ -1,47 +1,69 @@
-.contactSection h3 {
-    font-weight: lighter;
-    font-size: 1.2em;
-  }
-
-  .contactSection h2 {
-    font-weight: lighter;
-    vertical-align: text-bottom;
-    font-family: 'Cutive Mono', serif;
-    display: inline-block;
+@media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) {
+    .contactSection h3 {
+        font-weight: lighter;
+        font-size: 1.2em;
+    }
+    .contactSection h2 {
+        font-weight: lighter;
+        vertical-align: text-bottom;
+        font-family: 'Cutive Mono', serif;
+        display: inline-block;
+    }
+    .menuIcons {
+        margin-top: 2%;
+    }
+    .menuIcons h6 {
+        font-size: 1.1em;
+    }
+    .menuIcons a {
+        margin-right: 6%;
+    }
+    .menuIcons a {
+        margin: 0 3%;
+    }
+    .menuIcons img {
+        margin-top: 2%;
+        width: 6%;
+        display: inline-block;
+        float: none;
+    }
+    .menuIcons img:hover {
+        left: 20px;
+    }
+    .menuIcons p {
+        display: inline-block;
+        margin: 0 0 1% 1%;
+        vertical-align: bottom;
+    }
+    .arrowEmail .contactArrow {
+        margin-top: 2%;
+        width: 3%;
+        float: none;
+    }
 }
 
-  .menuIcons {
-    margin-top: 2%;
-  }
-
-  .menuIcons a {
-    margin-right: 6%;
-  }
-
-.menuIcons a {
-    margin: 0 1%;
-}
-
-.menuIcons img {
-    margin-top: 2%;  
-    width: 6%;
-    display: inline-block;
-    float: none;
-
-}
-
-.menuIcons img:hover {
-    left: 20px;
-}
-
-.menuIcons p{
-    display: inline-block;
-    margin: 0 0 1% 1%;
-    vertical-align: super;
-}
-
-.arrowEmail .contactArrow {
-    margin-top: 2%;
-    width: 3%;
-    float: none;
+@media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .contactSection {
+        padding: 12% 0;
+    }
+    .arrowEmail .contactArrow {
+        display: none;
+    }
+    .arrowEmail h2 {
+        font-size: 1.3em;
+        margin: 4% 0 4% 3%;
+        letter-spacing: -0.9px;
+    }
+    .menuIcons a {
+        margin: 0 8%;
+    }
+    .menuIcons h6 {
+        margin-bottom: 2%;
+    }
+    .menuIcons img {
+        width: 10%;
+    }
+    .menuIcons p {
+        font-size: 1.3em;
+    }
 }

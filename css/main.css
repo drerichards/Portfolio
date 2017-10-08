@@ -1,36 +1,73 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Special+Elite|Cormorant');
+    .pageContainer {
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        position: absolute;
+    }
+    .horizBar {
+        background-color: rgba(80, 80, 80, 0.56);
+        width: 45%;
+        height: 100vh;
+    }
+    .innerBar {
+        background-color: rgba(0, 0, 0, 0.86);
+        width: 95%;
+        height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .headerBoxWrapper {
+        width: 100%;
+        padding: 0 5%;
+    }
+    .sectionContainer,
+    .aboutSection,
+    .contactSection,
+    .projectSection {
+        display: none;
+    }
+    .featherlight .featherlight-close-icon {
+        font-size: 1.8em;
+    }
 
-.pageContainer{
-    width: 65vw;
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    position: absolute;
+@media only screen and (min-width: 741px) and (-webkit-min-device-pixel-ratio: 2) {
+    .pageContainer {
+        /* width: 65vw; */
+        height: 100vh;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        position: absolute;
+    }
+    .horizBar {
+        background-color: rgba(80, 80, 80, 0.56);
+        width: 25%;
+        height: 100%;
+    }
+    .innerBar {
+        background-color: rgba(0, 0, 0, 0.86);
+        width: 95%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .headerBoxWrapper {
+        width: 60%;
+        padding: 0 5%;
+    }
+    .sectionContainer,
+    .aboutSection,
+    .contactSection,
+    .projectSection {
+        display: none;
+    }
 }
-
-.horizBar{
-    background-color: rgba(80, 80, 80, 0.56);
-    width: 25%;
-    height: 100%;
-}
-
-.innerBar{
-    background-color: rgba(0, 0, 0, 0.86);
-    width: 95%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-  .headerBoxWrapper {
-    width: 75%;
-    padding: 0 5%;
-  }
-  
-  .sectionContainer, .aboutSection, .contactSection, .projectSection{
-      display: none;
-  }

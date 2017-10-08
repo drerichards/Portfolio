@@ -1,44 +1,59 @@
-  .nameDisplay {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 12%;
-    font-family: 'Cutive Mono', sans-serif;
-    text-shadow: 4px 4px 5px #000;
-  }
-
-  .nameDisplay h3 {
-    font-size: 3em;
-    margin-bottom: 0;
-    font-weight: 200;
-    position: relative;
-  }
-
-  .nameDisplay h1 {
-    margin: 5% 5% 4%;
-    font-size: 5em;
-    font-family: 'Special Elite', serif;
-    font-weight: 100;
-    position: relative;
-  }
-
-  .nameDisplay h4 {
-    text-align: right;
-    margin-top: 0;
-    font-size: 2em;
-    font-weight: 100;
-    position: relative;
-  }
-
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 1) { */
+    .nameDisplay {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 12%;
+        font-family: 'Cutive Mono', sans-serif;
+        text-shadow: 4px 4px 5px #000;
+    }
+    .nameDisplay h3 {
+        font-size: 3em;
+        margin-bottom: 0;
+        font-weight: 200;
+        position: relative;
+    }
+    .nameDisplay h1 {
+        margin: 5% 0 4%;
+        font-size: 3.5em;
+        font-family: 'Special Elite', serif;
+        font-weight: 100;
+        position: relative;
+    }
+    .nameDisplay h4 {
+        text-align: right;
+        margin-top: 0;
+        font-size: 2em;
+        font-weight: 100;
+        position: relative;
+    }
     .circle {
-    height: 22em;
-    width: 24em;
-    background-color: red;
-    border-radius: 100%;
-    opacity: 0.425;
-    position: absolute;
-    top: 33%;
-    left: 35%;
-  }
+        height: 22em;
+        width: 24em;
+        background-color: red;
+        border-radius: 100%;
+        opacity: 0.425;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+/* } */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+    .nameDisplay h1 {
+        font-size: 4em;
+        margin: 5% 5% 4%;
+    }
+    .circle {
+        top: 12%;
+        left: 15%;
+    }
+}
+
+@media only screen and (min-device-width: 741px) and (-webkit-min-device-pixel-ratio: 1) {
+    .circle {
+        left: 35%;
+    }
+}
