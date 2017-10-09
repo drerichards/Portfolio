@@ -1,454 +1,459 @@
-.bkgdSlider, .bkgdSlider:after {
-  background-size: cover;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  z-index: 0;
-  background-color: #111111;
-  margin: 0 auto;
-  padding: 0;
+.bkgdSlider,
+.bkgdSlider:after {
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    background-color: #111111;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
 }
 
 .bkgdSlider:after {
-  content: '';
-  background: transparent url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_3/v1506631996/portfolio/pattern.png) repeat top left;
+    content: '';
+    background: transparent url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_3/v1506631996/portfolio/pattern.png) repeat top left;
 }
 
 .bkgdSlider li span {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  margin: 0 auto;
-  color: transparent;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: none;
-  opacity: 0;
-  z-index: 0;
-  -webkit-backface-visibility: hidden;
-  -webkit-animation: imageAnimation 60s linear infinite 0s;
-  -moz-animation: imageAnimation 60s linear infinite 0s;
-  -o-animation: imageAnimation 60s linear infinite 0s;
-  -ms-animation: imageAnimation 60s linear infinite 0s;
-  animation: imageAnimation 60s linear infinite 0s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    margin: 0 auto;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 60s linear infinite 0s;
+    -moz-animation: imageAnimation 60s linear infinite 0s;
+    -o-animation: imageAnimation 60s linear infinite 0s;
+    -ms-animation: imageAnimation 60s linear infinite 0s;
+    animation: imageAnimation 60s linear infinite 0s;
 }
 
 .bkgdSlider li div {
-  z-index: 2000;
-  position: absolute;
-  bottom: 100px;
-  left: 0px;
-  width: 100%;
-  text-align: center;
-  opacity: 0;
-  -webkit-animation: titleAnimation 60s linear 1 0s;
-  -moz-animation: titleAnimation 60s linear 1 0s;
-  -o-animation: titleAnimation 60s linear 1 0s;
-  -ms-animation: titleAnimation 60s linear 1 0s;
-  animation: titleAnimation 60s linear 1 0s;
+    z-index: 2000;
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    -webkit-animation: titleAnimation 60s linear 1 0s;
+    -moz-animation: titleAnimation 60s linear 1 0s;
+    -o-animation: titleAnimation 60s linear 1 0s;
+    -ms-animation: titleAnimation 60s linear 1 0s;
+    animation: titleAnimation 60s linear 1 0s;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 .bkgdSlider li:nth-child(1) span {
-  background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506631977/portfolio/1.jpg)
+    background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506631977/portfolio/1.jpg)
 }
 
 .bkgdSlider li:nth-child(2) span {
-  background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506631979/portfolio/3.jpg);
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  -o-animation-delay: 6s;
-  -ms-animation-delay: 6s;
-  animation-delay: 6s;
+    background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506631979/portfolio/3.jpg);
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
 }
 
 .bkgdSlider li:nth-child(3) span {
-  background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506641563/portfolio/2.jpg);
-  -webkit-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  -o-animation-delay: 12s;
-  -ms-animation-delay: 12s;
-  animation-delay: 12s;
+    background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506641563/portfolio/2.jpg);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
 }
 
 .bkgdSlider li:nth-child(4) span {
-  background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506641563/portfolio/drew-graham-310365.jpg);
-  -webkit-animation-delay: 18s;
-  -moz-animation-delay: 18s;
-  -o-animation-delay: 18s;
-  -ms-animation-delay: 18s;
-  animation-delay: 18s;
+    background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506641563/portfolio/drew-graham-310365.jpg);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
 }
 
 .bkgdSlider li:nth-child(5) span {
-  background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506631982/portfolio/4.jpg);
-  -webkit-animation-delay: 24s;
-  -moz-animation-delay: 24s;
-  -o-animation-delay: 24s;
-  -ms-animation-delay: 24s;
-  animation-delay: 24s;
+    background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506631982/portfolio/4.jpg);
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
 }
 
 .bkgdSlider li:nth-child(6) span {
-  background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506631972/portfolio/5.jpg);
-  -webkit-animation-delay: 30s;
-  -moz-animation-delay: 30s;
-  -o-animation-delay: 30s;
-  -ms-animation-delay: 30s;
-  animation-delay: 30s;
+    background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506631972/portfolio/5.jpg);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
 }
 
 .bkgdSlider li:nth-child(7) span {
-  background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506641568/portfolio/serge-kutuzov-305979.jpg);
-  -webkit-animation-delay: 36s;
-  -moz-animation-delay: 36s;
-  -o-animation-delay: 36s;
-  -ms-animation-delay: 36s;
-  animation-delay: 36s;
+    background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506641568/portfolio/serge-kutuzov-305979.jpg);
+    -webkit-animation-delay: 36s;
+    -moz-animation-delay: 36s;
+    -o-animation-delay: 36s;
+    -ms-animation-delay: 36s;
+    animation-delay: 36s;
 }
 
 .bkgdSlider li:nth-child(8) span {
-  background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506631975/portfolio/7.jpg);
-  -webkit-animation-delay: 42s;
-  -moz-animation-delay: 42s;
-  -o-animation-delay: 42s;
-  -ms-animation-delay: 42s;
-  animation-delay: 42s;
+    background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506631975/portfolio/7.jpg);
+    -webkit-animation-delay: 42s;
+    -moz-animation-delay: 42s;
+    -o-animation-delay: 42s;
+    -ms-animation-delay: 42s;
+    animation-delay: 42s;
 }
 
 .bkgdSlider li:nth-child(9) span {
-  background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506641569/portfolio/drew-graham-346126.jpg);
-  -webkit-animation-delay: 48s;
-  -moz-animation-delay: 48s;
-  -o-animation-delay: 48s;
-  -ms-animation-delay: 48s;
-  animation-delay: 48s;
+    background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_2000/v1506641569/portfolio/drew-graham-346126.jpg);
+    -webkit-animation-delay: 48s;
+    -moz-animation-delay: 48s;
+    -o-animation-delay: 48s;
+    -ms-animation-delay: 48s;
+    animation-delay: 48s;
 }
 
- .bkgdSlider li:nth-child(1) div {
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  -o-animation-delay: 6s;
-  -ms-animation-delay: 6s;
-  animation-delay: 6s;
+.bkgdSlider li:nth-child(1) div {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
 }
 
 .bkgdSlider li:nth-child(2) div {
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  -o-animation-delay: 6s;
-  -ms-animation-delay: 6s;
-  animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
 }
 
 .bkgdSlider li:nth-child(3) div {
-  -webkit-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  -o-animation-delay: 12s;
-  -ms-animation-delay: 12s;
-  animation-delay: 12s;
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
 }
 
 .bkgdSlider li:nth-child(4) div {
-  -webkit-animation-delay: 18s;
-  -moz-animation-delay: 18s;
-  -o-animation-delay: 18s;
-  -ms-animation-delay: 18s;
-  animation-delay: 18s;
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
 }
 
 .bkgdSlider li:nth-child(5) div {
-  -webkit-animation-delay: 24s;
-  -moz-animation-delay: 24s;
-  -o-animation-delay: 24s;
-  -ms-animation-delay: 24s;
-  animation-delay: 24s;
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
 }
 
 .bkgdSlider li:nth-child(6) div {
-  -webkit-animation-delay: 30s;
-  -moz-animation-delay: 30s;
-  -o-animation-delay: 30s;
-  -ms-animation-delay: 30s;
-  animation-delay: 30s;
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
 }
 
 .bkgdSlider li:nth-child(7) div {
-  -webkit-animation-delay: 36s;
-  -moz-animation-delay: 36s;
-  -o-animation-delay: 36s;
-  -ms-animation-delay: 36s;
-  animation-delay: 36s;
+    -webkit-animation-delay: 36s;
+    -moz-animation-delay: 36s;
+    -o-animation-delay: 36s;
+    -ms-animation-delay: 36s;
+    animation-delay: 36s;
 }
 
 .bkgdSlider li:nth-child(8) div {
-  -webkit-animation-delay: 42s;
-  -moz-animation-delay: 42s;
-  -o-animation-delay: 42s;
-  -ms-animation-delay: 42s;
-  animation-delay: 42s;
+    -webkit-animation-delay: 42s;
+    -moz-animation-delay: 42s;
+    -o-animation-delay: 42s;
+    -ms-animation-delay: 42s;
+    animation-delay: 42s;
 }
 
 .bkgdSlider li:nth-child(9) div {
-  -webkit-animation-delay: 48s;
-  -moz-animation-delay: 48s;
-  -o-animation-delay: 48s;
-  -ms-animation-delay: 48s;
-  animation-delay: 48s;
+    -webkit-animation-delay: 48s;
+    -moz-animation-delay: 48s;
+    -o-animation-delay: 48s;
+    -ms-animation-delay: 48s;
+    animation-delay: 48s;
 }
+
 
 /* Animation for the slideshow images */
 
 @-webkit-keyframes imageAnimation {
-  0% {
-    opacity: 0;
-    -webkit-animation-timing-function: ease-in;
-  }
-  8% {
-    opacity: 1;
-    -webkit-transform: scale(1.05);
-    -webkit-animation-timing-function: ease-out;
-  }
-  17% {
-    opacity: 1;
-    -webkit-transform: scale(1.1);
-  }
-  25% {
-    opacity: 0;
-    -webkit-transform: scale(1.1);
-  }
-  100% {
-    opacity: 0
-  }
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -webkit-transform: scale(1.05);
+        -webkit-animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+    }
+    25% {
+        opacity: 0;
+        -webkit-transform: scale(1.1);
+    }
+    100% {
+        opacity: 0
+    }
 }
 
 @-moz-keyframes imageAnimation {
-  0% {
-    opacity: 0;
-    -moz-animation-timing-function: ease-in;
-  }
-  8% {
-    opacity: 1;
-    -moz-transform: scale(1.05);
-    -moz-animation-timing-function: ease-out;
-  }
-  17% {
-    opacity: 1;
-    -moz-transform: scale(1.1);
-  }
-  25% {
-    opacity: 0;
-    -moz-transform: scale(1.1);
-  }
-  100% {
-    opacity: 0
-  }
+    0% {
+        opacity: 0;
+        -moz-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -moz-transform: scale(1.05);
+        -moz-animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        -moz-transform: scale(1.1);
+    }
+    25% {
+        opacity: 0;
+        -moz-transform: scale(1.1);
+    }
+    100% {
+        opacity: 0
+    }
 }
 
 @-o-keyframes imageAnimation {
-  0% {
-    opacity: 0;
-    -o-animation-timing-function: ease-in;
-  }
-  8% {
-    opacity: 1;
-    -o-transform: scale(1.05);
-    -o-animation-timing-function: ease-out;
-  }
-  17% {
-    opacity: 1;
-    -o-transform: scale(1.1);
-  }
-  25% {
-    opacity: 0;
-    -o-transform: scale(1.1);
-  }
-  100% {
-    opacity: 0
-  }
+    0% {
+        opacity: 0;
+        -o-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -o-transform: scale(1.05);
+        -o-animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        -o-transform: scale(1.1);
+    }
+    25% {
+        opacity: 0;
+        -o-transform: scale(1.1);
+    }
+    100% {
+        opacity: 0
+    }
 }
 
 @-ms-keyframes imageAnimation {
-  0% {
-    opacity: 0;
-    -ms-animation-timing-function: ease-in;
-  }
-  8% {
-    opacity: 1;
-    -ms-transform: scale(1.05);
-    -ms-animation-timing-function: ease-out;
-  }
-  17% {
-    opacity: 1;
-    -ms-transform: scale(1.1);
-  }
-  25% {
-    opacity: 0;
-    -ms-transform: scale(1.1);
-  }
-  100% {
-    opacity: 0
-  }
+    0% {
+        opacity: 0;
+        -ms-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -ms-transform: scale(1.05);
+        -ms-animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        -ms-transform: scale(1.1);
+    }
+    25% {
+        opacity: 0;
+        -ms-transform: scale(1.1);
+    }
+    100% {
+        opacity: 0
+    }
 }
 
 @keyframes imageAnimation {
-  0% {
-    opacity: 0;
-    animation-timing-function: ease-in;
-  }
-  8% {
-    opacity: 1;
-    transform: scale(1.05);
-    animation-timing-function: ease-out;
-  }
-  17% {
-    opacity: 1;
-    transform: scale(1.1);
-  }
-  25% {
-    opacity: 0;
-    transform: scale(1.1);
-  }
-  100% {
-    opacity: 0
-  }
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        transform: scale(1.05);
+        animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    25% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 0
+    }
 }
 
 
 /* Animation for the title */
 
 @-webkit-keyframes titleAnimation {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(200px);
-  }
-  8% {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-  }
-  17% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-  }
-  19% {
-    opacity: 0
-  }
-  25% {
-    opacity: 0;
-    -webkit-transform: scale(10);
-  }
-  100% {
-    opacity: 0
-  }
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(200px);
+    }
+    8% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+    }
+    17% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+    19% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0;
+        -webkit-transform: scale(10);
+    }
+    100% {
+        opacity: 0
+    }
 }
 
 @-moz-keyframes titleAnimation {
-  0% {
-    opacity: 0;
-    -moz-transform: translateY(200px);
-  }
-  8% {
-    opacity: 1;
-    -moz-transform: translateY(0px);
-  }
-  17% {
-    opacity: 1;
-    -moz-transform: scale(1);
-  }
-  19% {
-    opacity: 0
-  }
-  25% {
-    opacity: 0;
-    -moz-transform: scale(10);
-  }
-  100% {
-    opacity: 0
-  }
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(200px);
+    }
+    8% {
+        opacity: 1;
+        -moz-transform: translateY(0px);
+    }
+    17% {
+        opacity: 1;
+        -moz-transform: scale(1);
+    }
+    19% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0;
+        -moz-transform: scale(10);
+    }
+    100% {
+        opacity: 0
+    }
 }
 
 @-o-keyframes titleAnimation {
-  0% {
-    opacity: 0;
-    -o-transform: translateY(200px);
-  }
-  8% {
-    opacity: 1;
-    -o-transform: translateY(0px);
-  }
-  17% {
-    opacity: 1;
-    -o-transform: scale(1);
-  }
-  19% {
-    opacity: 0
-  }
-  25% {
-    opacity: 0;
-    -o-transform: scale(10);
-  }
-  100% {
-    opacity: 0
-  }
+    0% {
+        opacity: 0;
+        -o-transform: translateY(200px);
+    }
+    8% {
+        opacity: 1;
+        -o-transform: translateY(0px);
+    }
+    17% {
+        opacity: 1;
+        -o-transform: scale(1);
+    }
+    19% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0;
+        -o-transform: scale(10);
+    }
+    100% {
+        opacity: 0
+    }
 }
 
 @-ms-keyframes titleAnimation {
-  0% {
-    opacity: 0;
-    -ms-transform: translateY(200px);
-  }
-  8% {
-    opacity: 1;
-    -ms-transform: translateY(0px);
-  }
-  17% {
-    opacity: 1;
-    -ms-transform: scale(1);
-  }
-  19% {
-    opacity: 0
-  }
-  25% {
-    opacity: 0;
-    -webkit-transform: scale(10);
-  }
-  100% {
-    opacity: 0
-  }
+    0% {
+        opacity: 0;
+        -ms-transform: translateY(200px);
+    }
+    8% {
+        opacity: 1;
+        -ms-transform: translateY(0px);
+    }
+    17% {
+        opacity: 1;
+        -ms-transform: scale(1);
+    }
+    19% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0;
+        -webkit-transform: scale(10);
+    }
+    100% {
+        opacity: 0
+    }
 }
 
 @keyframes titleAnimation {
-  0% {
-    opacity: 0;
-    transform: translateY(200px);
-  }
-  8% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-  17% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  19% {
-    opacity: 0
-  }
-  25% {
-    opacity: 0;
-    transform: scale(10);
-  }
-  100% {
-    opacity: 0
-  }
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    8% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    17% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    19% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0;
+        transform: scale(10);
+    }
+    100% {
+        opacity: 0
+    }
 }
 
+
 /* Show when animations not supported */
+
 .no-cssanimations .bkgdSlider li span {
-  opacity: 1;
+    opacity: 1;
 }
