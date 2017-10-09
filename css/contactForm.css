@@ -45,7 +45,7 @@
 
         .arrowEmail .contactArrow {
             margin-top: 2%;
-            width: 3%;
+            width: 4%;
             float: none;
         }
 
@@ -83,5 +83,3 @@
                 width: 10%;
             }
         }
-
-        @media only screen and (min-device-width: 741px) and (-webkit-min-device-pixel-ratio: 1) {}
