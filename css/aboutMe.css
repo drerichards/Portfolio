@@ -35,5 +35,3 @@
         display: inline-block;
         margin: 1% 3%;
     }
-
-    @media only screen and (min-device-width: 741px) and (-webkit-min-device-pixel-ratio: 1) {}

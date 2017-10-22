@@ -45,7 +45,7 @@
                 left: 10%;
             }
 
-            @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+            @media screen and (min-device-width: 320px) and (max-device-width: 740px) and (orientation: landscape) {
                 .nameDisplay h1 {
                     font-size: 4em;
                     margin: 5% 5% 4%;
@@ -56,7 +56,7 @@
                 }
             }
 
-            @media only screen and (min-device-width: 741px) and (-webkit-min-device-pixel-ratio: 1) {
+            @media screen and (min-device-width: 741px) {
                 .nameDisplay {
                     padding: 0 10%;
                 }
@@ -69,20 +69,20 @@
                 }
             }
 
-            @media only screen and (min-device-width: 741px) and (max-device-height: 1279px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+            @media screen and (min-device-width: 741px) and (max-device-height: 1279px) and (orientation: landscape) {
                 .circle {
                     top: 25%;
                     left: 12%;
                 }
             }
 
-            @media only screen and (min-device-height: 1366px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 1) {
+            @media screen and (min-device-height: 1366px) and (max-device-height: 1366px) {
                 .circle {
                     top: 35%;
                 }
             }
 
-            @media only screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 1) {
+            @media screen and (min-width: 1280px) {
                 .circle {
                     top: 33%;
                     left: 12%;

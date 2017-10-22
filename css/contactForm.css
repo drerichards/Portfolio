@@ -49,7 +49,7 @@
             float: none;
         }
 
-        @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+        @media screen and (min-device-width: 320px) and (max-device-width: 740px) and (orientation: portrait) {
             .contactSection {
                 padding: 12% 0;
             }
@@ -75,7 +75,7 @@
             }
         }
 
-        @media only screen and (min-device-width: 741px) and (max-device-width: 801px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+        @media screen and (min-device-width: 741px) and (max-device-width: 801px) and (orientation: portrait) {
             .arrowEmail .contactArrow {
                 display: none;
             }
