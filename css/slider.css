@@ -58,11 +58,11 @@
     }
 
     .bkgdSlider li:nth-child(1) span {
-        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1800/v1506631977/portfolio/1.jpg)
+        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1350/v1506631977/portfolio/1.jpg)
     }
 
     .bkgdSlider li:nth-child(2) span {
-        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1800/v1506631979/portfolio/3.jpg);
+        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1350/v1506631979/portfolio/3.jpg);
         -webkit-animation-delay: 6s;
         -moz-animation-delay: 6s;
         -o-animation-delay: 6s;
@@ -71,7 +71,7 @@
     }
 
     .bkgdSlider li:nth-child(3) span {
-        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1800/v1506641563/portfolio/2.jpg);
+        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1350/v1506641563/portfolio/2.jpg);
         -webkit-animation-delay: 12s;
         -moz-animation-delay: 12s;
         -o-animation-delay: 12s;
@@ -80,7 +80,7 @@
     }
 
     .bkgdSlider li:nth-child(4) span {
-        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1800/v1506641563/portfolio/drew-graham-310365.jpg);
+        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1350/v1506641563/portfolio/drew-graham-310365.jpg);
         -webkit-animation-delay: 18s;
         -moz-animation-delay: 18s;
         -o-animation-delay: 18s;
@@ -89,7 +89,7 @@
     }
 
     .bkgdSlider li:nth-child(5) span {
-        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1800/v1506631982/portfolio/4.jpg);
+        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1350/v1506631982/portfolio/4.jpg);
         -webkit-animation-delay: 24s;
         -moz-animation-delay: 24s;
         -o-animation-delay: 24s;
@@ -98,7 +98,7 @@
     }
 
     .bkgdSlider li:nth-child(6) span {
-        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1800/v1506631972/portfolio/5.jpg);
+        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1350/v1506631972/portfolio/5.jpg);
         -webkit-animation-delay: 30s;
         -moz-animation-delay: 30s;
         -o-animation-delay: 30s;
@@ -107,7 +107,7 @@
     }
 
     .bkgdSlider li:nth-child(7) span {
-        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1800/v1506641568/portfolio/serge-kutuzov-305979.jpg);
+        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1350/v1506641568/portfolio/serge-kutuzov-305979.jpg);
         -webkit-animation-delay: 36s;
         -moz-animation-delay: 36s;
         -o-animation-delay: 36s;
@@ -116,7 +116,7 @@
     }
 
     .bkgdSlider li:nth-child(8) span {
-        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1800/v1506631975/portfolio/7.jpg);
+        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1350/v1506631975/portfolio/7.jpg);
         -webkit-animation-delay: 42s;
         -moz-animation-delay: 42s;
         -o-animation-delay: 42s;
@@ -125,7 +125,7 @@
     }
 
     .bkgdSlider li:nth-child(9) span {
-        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1800/v1506641569/portfolio/drew-graham-346126.jpg);
+        background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1350/v1506641569/portfolio/drew-graham-346126.jpg);
         -webkit-animation-delay: 48s;
         -moz-animation-delay: 48s;
         -o-animation-delay: 48s;
@@ -454,30 +454,30 @@
 
     @media screen and (min-device-width: 320px) and (max-device-width: 740px) {
         .bkgdSlider li:nth-child(1) span {
-            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506631977/portfolio/1.jpg)
+            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1506631977/portfolio/1.jpg)
         }
         .bkgdSlider li:nth-child(2) span {
-            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506631977/portfolio/3.jpg)
+            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1506631977/portfolio/3.jpg)
         }
         .bkgdSlider li:nth-child(3) span {
-            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506631977/portfolio/2.jpg)
+            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1506631977/portfolio/2.jpg)
         }
         .bkgdSlider li:nth-child(4) span {
-            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506631977/portfolio/drew-graham-310365.jpg)
+            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1506631977/portfolio/drew-graham-310365.jpg)
         }
         .bkgdSlider li:nth-child(5) span {
-            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506631977/portfolio/4.jpg)
+            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1506631977/portfolio/4.jpg)
         }
         .bkgdSlider li:nth-child(6) span {
-            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506631977/portfolio/5.jpg)
+            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1506631977/portfolio/5.jpg)
         }
         .bkgdSlider li:nth-child(7) span {
-            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506631977/portfolio/serge-kutuzov-305979.jpg)
+            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1506631977/portfolio/serge-kutuzov-305979.jpg)
         }
         .bkgdSlider li:nth-child(8) span {
-            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506631977/portfolio/7.jpg)
+            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1506631977/portfolio/7.jpg)
         }
         .bkgdSlider li:nth-child(9) span {
-            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506631977/portfolio/drew-graham-346126.jpg)
+            background-image: url(http://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1506631977/portfolio/drew-graham-346126.jpg)
         }
     }
