@@ -27,6 +27,7 @@
                 font-size: 3.5em;
                 font-family: 'Special Elite', serif;
                 font-weight: 100;
+                overflow: hidden;
                 position: relative;
             }
 
