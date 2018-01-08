@@ -6,7 +6,6 @@
     vertical-align: baseline;
     box-sizing: border-box;
     color: #fff;
-    overflow: auto;
 }
 
 body {
@@ -23,7 +22,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     overflow-x: hidden;
     position: fixed;
 }
@@ -59,19 +58,14 @@ textarea {
     margin: 0;
 }
 
-button,
-input {
-    overflow: visible;
-}
-
 button {
     text-transform: none;
     -webkit-appearance: button;
 }
 
-textarea {
+/* textarea {
     overflow: auto;
-}
+} */
 
 @media screen and (min-device-width: 741px) {
     body {
