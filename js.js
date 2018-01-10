@@ -2,6 +2,8 @@
 
 {
     $('#homeBtn').click((e) => {
+        $('.innerNav h1').hide()
+        $('.menu-circle').hide()
         $('.aboutSection').hide()
         $('.contactSection').hide()
         $('.projectSection').hide()
@@ -13,6 +15,8 @@
     })
 
     $('#aboutBtn').click(() => {
+        $('.innerNav h1').fadeIn(300)
+        $('.menu-circle').fadeIn(300)
         $('.nameDisplay').hide()
         $('.contactSection').hide()
         $('.projectSection').hide()
@@ -24,6 +28,8 @@
     })
 
     $('#projectBtn').click(() => {
+        $('.innerNav h1').fadeIn(300)
+        $('.menu-circle').fadeIn(300)
         $('.nameDisplay').hide()
         $('.contactSection').hide()
         $('.aboutSection').hide()
@@ -35,6 +41,8 @@
     })
 
     $('#contactBtn').click(() => {
+        $('.innerNav h1').fadeIn(300)
+        $('.menu-circle').fadeIn(300)
         $('.nameDisplay').hide()
         $('.projectSection').hide()
         $('.aboutSection').hide()
@@ -47,27 +55,27 @@
 
     $('.arrowEmail').mouseenter(() => {
         $('.contactArrow').animate({
-            marginLeft: "9px"
+            marginLeft: "4px"
         }, 300, 'swing', () => {
             $('.contactArrow').animate({
-                marginLeft: "9px"
+                marginLeft: "4px"
             }, 300)
         })
         $('.arrowEmail h2').animate({
-            marginLeft: "-6px"
+            marginLeft: "-4px"
         }, 300, 'swing', () => {
             $('.arrowEmail h2').animate({
-                marginLeft: "-6px"
+                marginLeft: "-4px"
             }, 300)
         })
     })
 
     $('.arrowEmail').mouseout(() => {
         $('.contactArrow').animate({
-            marginLeft: "-9px"
+            marginLeft: "-4px"
         }, 200)
         $('.arrowEmail h2').animate({
-            marginLeft: "6px"
+            marginLeft: "4px"
         }, 200)
     })
     $('.hamburger').click(() => {

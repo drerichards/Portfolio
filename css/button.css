@@ -88,13 +88,19 @@
     justify-content: center;
 }
 
-.innerNav h1{
+.innerNav h1 {
+    text-align: center;
+    padding: 6px 0;
+    font-family: 'Special Elite', serif;
+    letter-spacing: 4px;
+    font-weight: lighter;
     display: none;
 }
 
 .innerNav .menu-circle {
     display: none;
 }
+
 @media screen and (min-width: 741px) {
     .hamburger {
         display: none;
@@ -104,7 +110,7 @@
         display: block;
     }
     .innerNav h1 {
-        display: block;
+        display: none;
         position: absolute;
         top: 8%;
         font-family: 'Cutive Mono', serif;
@@ -114,7 +120,7 @@
         text-align: center;
     }
     .innerNav .menu-circle {
-        display: block;
+        display: none;
         height: 8em;
         width: 9em;
         background-color: red;
