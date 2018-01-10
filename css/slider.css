@@ -458,7 +458,7 @@ li {
     opacity: 1;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 740px) {
+@media screen and (min-width: 320px) and (max-width: 740px) {
     .bkgdSlider li:nth-child(1) span {
         background-image: url(https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1506631977/portfolio/1.jpg)
     }

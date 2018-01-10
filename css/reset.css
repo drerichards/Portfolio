@@ -67,7 +67,7 @@ button {
     overflow: auto;
 } */
 
-@media screen and (min-device-width: 741px) {
+@media screen and (min-width: 741px) {
     body {
         font-size: 100%;
     }

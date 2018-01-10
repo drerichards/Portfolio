@@ -47,10 +47,10 @@
 
     $('.arrowEmail').mouseenter(() => {
         $('.contactArrow').animate({
-            marginLeft: "6px"
+            marginLeft: "9px"
         }, 300, 'swing', () => {
             $('.contactArrow').animate({
-                marginLeft: "6px"
+                marginLeft: "9px"
             }, 300)
         })
         $('.arrowEmail h2').animate({
@@ -64,7 +64,7 @@
 
     $('.arrowEmail').mouseout(() => {
         $('.contactArrow').animate({
-            marginLeft: "-6px"
+            marginLeft: "-9px"
         }, 200)
         $('.arrowEmail h2').animate({
             marginLeft: "6px"

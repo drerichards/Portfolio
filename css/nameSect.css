@@ -52,14 +52,14 @@
                 transform: translateY(-50%);
             }
 
-            @media screen and (min-device-width: 320px) and (max-device-width: 740px) and (orientation: landscape) {
+            @media screen and (min-width: 320px) and (max-width: 740px) and (orientation: landscape) {
                 .nameDisplay h1 {
                     font-size: 4em;
                     margin: 5% 5% 4%;
                 }
             }
 
-            @media screen and (min-device-width: 741px) {
+            @media screen and (min-width: 741px) {
                 .nameDisplay {
                     padding: 0 10%;
                 }

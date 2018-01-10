@@ -1,85 +1,95 @@
-        .contactSection h3 {
-            font-weight: lighter;
-            font-size: 1.2em;
-        }
+.contactSection {
+    padding: 2%;
+}
 
-        .contactSection h2 {
-            font-weight: lighter;
-            vertical-align: text-bottom;
-            font-family: 'Cutive Mono', serif;
-            display: inline-block;
-        }
+.contactSection h3 {
+    font-weight: lighter;
+    font-size: 1.2em;
+}
 
-        .menuIcons {
-            margin-top: 2%;
-        }
+.contactSection h2 {
+    font-weight: lighter;
+    vertical-align: text-bottom;
+    font-family: 'Cutive Mono', serif;
+    display: inline-block;
+}
 
-        .menuIcons h6 {
-            font-size: 1.1em;
-        }
+.menuIcons {
+    margin-top: 2%;
+}
 
-        .menuIcons a {
-            margin-right: 6%;
-        }
+.menuIcons h6 {
+    font-size: 1.1em;
+}
 
-        .menuIcons a {
-            margin: 0 3%;
-        }
+.menuIcons a {
+    margin-right: 6%;
+}
 
-        .menuIcons img {
-            margin-top: 2%;
-            width: 6%;
-            display: inline-block;
-            float: none;
-        }
+.menuIcons a {
+    margin: 0 3%;
+}
 
-        .menuIcons img:hover {
-            left: 20px;
-        }
+.menuIcons img {
+    margin-top: 2%;
+    width: 6%;
+    display: inline-block;
+    float: none;
+}
 
-        .menuIcons p {
-            display: inline-block;
-            margin: 0 0 1% 1%;
-            vertical-align: bottom;
-        }
+.menuIcons img:hover {
+    left: 20px;
+}
 
-        .arrowEmail .contactArrow {
-            margin-top: 2%;
-            width: 4%;
-            float: none;
-        }
+.menuIcons p {
+    display: inline-block;
+    margin: 0 0 1% 1%;
+    vertical-align: bottom;
+}
 
-        @media screen and (min-device-width: 320px) and (max-device-width: 740px) and (orientation: portrait) {
-            .contactSection {
-                padding: 12% 0;
-            }
-            .arrowEmail .contactArrow {
-                display: none;
-            }
-            .arrowEmail h2 {
-                font-size: 1.3em;
-                margin: 4% 0 4% 3%;
-                letter-spacing: -0.9px;
-            }
-            .menuIcons a {
-                margin: 0 8%;
-            }
-            .menuIcons h6 {
-                margin-bottom: 2%;
-            }
-            .menuIcons img {
-                width: 10%;
-            }
-            .menuIcons p {
-                font-size: 1.3em;
-            }
-        }
+.arrowEmail{
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+}
 
-        @media screen and (min-device-width: 741px) and (max-device-width: 801px) and (orientation: portrait) {
-            .arrowEmail .contactArrow {
-                display: none;
-            }
-            .menuIcons img {
-                width: 10%;
-            }
-        }
+.arrowEmail .contactArrow {
+    margin-top: 2%;
+    width: 4%;
+    float: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 740px) and (orientation: portrait) {
+    .contactSection {
+        padding: 12% 0;
+    }
+    .arrowEmail .contactArrow {
+        display: none;
+    }
+    .arrowEmail h2 {
+        font-size: 1.3em;
+        margin: 4% 0 4% 3%;
+        letter-spacing: -0.9px;
+    }
+    .menuIcons a {
+        margin: 0 8%;
+    }
+    .menuIcons h6 {
+        margin-bottom: 2%;
+    }
+    .menuIcons img {
+        width: 10%;
+    }
+    .menuIcons p {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 741px) and (max-width: 801px) and (orientation: portrait) {
+    .arrowEmail .contactArrow {
+        display: none;
+    }
+    .menuIcons img {
+        width: 10%;
+    }
+}
