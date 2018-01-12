@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/slider.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/aboutMe.css">
     <link rel="stylesheet" type="text/css" href="css/contactForm.css">
     <link rel="stylesheet" type="text/css" href="css/projects.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
     <title>Welcome | I'm Andre Richardson</title>
 </head>
 
@@ -149,7 +150,7 @@
                         <div class="projectGrid">
                             <div class="projectBox">
                                 <a href="#" class="item" data-featherlight="#vendSlide">
-                                    <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,h_475,w_775/v1507006014/portfolio/vendible.jpg" alt="Vendible"
+                                    <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,h_475,w_775/v1515754119/portfolio/vend1.jpg" alt="Vendible"
                                     />
                                 </a>
                                 <span>
@@ -169,8 +170,38 @@
                                 </span>
                             </div>
 
-                            <div id="vendSlide" class="hide">
-                                <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1100/v1506911218/portfolio/vendible2.jpg" style="width:100%">
+                            <div id="vendSlide" class="hide projectModal">
+                                <h2>Vendible</h2>
+                                <section>
+                                    <main>
+                                        <h3>Description:</h3>
+                                        <p>E-Commerce site that allows a user to sign in, browse merchandise, add items to cart,
+                                            and purchase by use of the built-in Stripe API payment module.
+                                        </p>
+                                        <h3>Components:</h3>
+                                        <span>
+                                            <ul>
+                                                <li>React</li>
+                                                <li>Redux</li>
+                                                <li>Javascript</li>
+                                                <li>Node</li>
+                                                <li>Express</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Mongo</li>
+                                                <li>Mongoose</li>
+                                                <li>Google Passport</li>
+                                                <li>Stripe API</li>
+                                                <li>CSS/Flexbox</li>
+                                                <li>Bootstrap</li>
+                                            </ul>
+                                        </span>
+                                    </main>
+                                    <aside>
+                                        <div style="background-image: url('https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1515754119/portfolio/vend1.jpg')"></div>
+                                        <div style="background-image: url('https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1515754130/portfolio/vend2.jpg')"></div>
+                                    </aside>
+                                </section>
                             </div>
 
                             <!--  -->
@@ -198,15 +229,29 @@
                                 </span>
                             </div>
 
-                            <div id="bonrSlide" class="hide">
-                                <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1100/v1506911218/portfolio/vendible2.jpg" style="width:100%">
+                            <div id="bonrSlide" class="hide projectModal">
+                               <h2>Bon Recipe</h2>
+                                <section>
+                                    <main>
+                                        <p>My passion is for design and technology. It’s what drives me to absorb a variety of Front and Back End development principles.
+                                            So if I'm not going through coding tutorials - you can probably catch me somewhere plotting my next travel spot, watching
+                                            anime, gaming, getting lost on Wikipedia and Google Maps, or just sketching random stuff around the city.
+                                        </p>
+                                    </main>
+                                        <aside>
+                                        <div style="background-image: url('')"></div>
+                                        <div style="background-image: url('')"></div>
+                                        <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1507006014/portfolio/vendible.jpg" />
+                                        <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506911218/portfolio/vendible2.jpg" />
+                                    </aside>
+                                </section>
                             </div> -->
 
                             <!--  -->
 
                             <div class="projectBox">
                                 <a href="#" class="item" data-featherlight="#simiSlide">
-                                    <img src=" https://res.cloudinary.com/andrerichards/image/upload/c_scale,h_475,w_775/v1509768576/simify_eqzfcz.jpg" alt="Simify"
+                                    <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,h_475,w_775/v1515754104/portfolio/simi1.jpg" alt="Simify"
                                     />
                                 </a>
                                 <span>
@@ -226,15 +271,42 @@
                                 </span>
                             </div>
 
-                            <div id="simiSlide" class="hide">
-                                <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1509768576/simify2_g9bly9.jpg" style="width:100%">
+                            <div id="simiSlide" class="hide projectModal">
+                                <h2>Simify</h2>
+                                <section>
+                                    <main>
+                                        <h3>Description:</h3>
+                                        <p>Web application that allows a user to sign in to Spotify and discover new music and
+                                            artists by searching similar artists to their favorite singer or group. The user
+                                            can also play the top tracks of each searched artist.
+                                        </p>
+                                        <h3>Components:</h3>
+                                        <span>
+                                            <ul>
+                                                <li>HTML</li>
+                                                <li>CSS/Flexbox</li>
+                                                <li>Javascript</li>
+                                                <li>jQuery</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Node</li>
+                                                <li>Express</li>
+                                                <li>Spotify API</li>
+                                            </ul>
+                                        </span>
+                                    </main>
+                                    <aside>
+                                        <div style="background-image: url('https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1515754104/portfolio/simi1.jpg')"></div>
+                                        <div style="background-image: url('https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1515754111/portfolio/simi2.jpg')"></div>
+                                    </aside>
+                                </section>
                             </div>
 
                             <!--  -->
 
                             <div class="projectBox">
                                 <a href="#" class="item" data-featherlight="#quizSlide">
-                                    <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,h_475,w_775/v1515147206/portfolio/cquiz.jpg" alt="Country Quiz"
+                                    <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,h_475,w_775/v1515754136/portfolio/quiz1.jpg" alt="Country Quiz"
                                     />
                                 </a>
                                 <span>
@@ -254,9 +326,29 @@
                                 </span>
                             </div>
 
-                            <div id="quizSlide" class="hide">
-
-                                <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1515147279/portfolio/cquiz2.jpg" style="width:100%">
+                            <div id="quizSlide" class="hide projectModal">
+                                <h2>Country Quiz</h2>
+                                <section>
+                                    <main>
+                                        <h3>Description:</h3>
+                                        <p>A simple quiz game that tests a user's knowledge of 5 countries in order to earn
+                                            the high score.
+                                        </p>
+                                        <h3>Components:</h3>
+                                        <span>
+                                            <ul>
+                                                <li>React</li>
+                                                <li>HTML</li>
+                                                <li>CSS/Flexbox</li>
+                                                <li>Javascript</li>
+                                            </ul>
+                                        </span>
+                                    </main>
+                                    <aside>
+                                        <div style="background-image: url('https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1515754136/portfolio/quiz1.jpg')"></div>
+                                        <div style="background-image: url('https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_600/v1515754138/portfolio/quiz2.jpg')"></div>
+                                    </aside>
+                                </section>
                             </div>
 
                             <!--  -->
@@ -283,8 +375,30 @@
                                 </span>
                             </div>
 
-                            <div id="avSlide" class="hide">
-                                <img src="https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_1100/v1506632090/portfolio/avclub2.jpg" style="width:100%">
+                            <div id="avSlide" class="hide projectModal">
+                                <h2>AV Club</h2>
+                                <section>
+                                    <main>
+                                        <h3>Description:</h3>
+                                        <p>A Website design based upon the idea of concepting for a digital advertising agency
+                                            as a client.
+                                        </p>
+                                        <h3>Components:</h3>
+                                        <span>
+                                            <ul>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                                <li>Javascript</li>
+                                                <li>jQuery</li>
+                                                <li>Bootstrap</li>
+                                            </ul>
+                                        </span>
+                                    </main>
+                                    <aside>
+                                        <div style="background-image: url('https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506632090/portfolio/avclub.jpg')"></div>
+                                        <div style="background-image: url('https://res.cloudinary.com/andrerichards/image/upload/c_scale,w_800/v1506632090/portfolio/avclub2.jpg')"></div>
+                                    </aside>
+                                </section>
                             </div>
 
                             <!--  -->
@@ -298,7 +412,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://use.fontawesome.com/3bad731526.js"></script>
     <script type="text/javascript" src="js.js"></script>
 </body>

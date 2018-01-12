@@ -7,8 +7,8 @@
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-         padding: 2%;
-   margin: auto 0;
+    padding: 2%;
+    margin: auto 0;
 }
 
 .projectSection::after {
@@ -84,7 +84,7 @@
 }
 
 .projectBox span {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     position: absolute;
     padding: 2% 0;
     width: 100%;
@@ -119,17 +119,18 @@
     display: inline;
 }
 
-.projectBox .project-btn-caption{
+.projectBox .project-btn-caption {
     font-size: 0.7em;
 }
 
 @media screen and (min-width: 320px) and (max-width: 740px) and (orientation: landscape) {
     .projectGrid {
-        display: block;
+        align-items: center;
+        overflow: auto;
     }
     .projectBox {
-        width: 35%;
-        height: 45%;
+        width: 70%;
+        height: 25%;
         margin: 2%;
     }
 }
