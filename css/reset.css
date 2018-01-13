@@ -63,10 +63,6 @@ button {
     -webkit-appearance: button;
 }
 
-/* textarea {
-    overflow: auto;
-} */
-
 @media screen and (min-width: 741px) {
     body {
         font-size: 100%;
