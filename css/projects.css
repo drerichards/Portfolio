@@ -49,7 +49,7 @@
 .projectBox {
     display: inline-block;
     margin: 2% auto;
-    width: 90%;
+    width: 95%;
     background: #101010;
     overflow: hidden;
     position: relative;
@@ -133,7 +133,6 @@
         overflow: auto;
     }
     .projectBox {
-        width: 70%;
         height: 25%;
         margin: 2%;
     }
@@ -145,9 +144,5 @@
     }
     .projectGrid {
         display: block;
-    }
-    .projectBox {
-        width: 95%;
-        /* height: 20%; */
     }
 }
