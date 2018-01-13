@@ -62,10 +62,10 @@
             }, 300)
         })
         $('.arrowEmail h2').animate({
-            marginLeft: "-4px"
+            marginLeft: "-6px"
         }, 300, 'swing', () => {
             $('.arrowEmail h2').animate({
-                marginLeft: "-4px"
+                marginLeft: "-6px"
             }, 300)
         })
     })
