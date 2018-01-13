@@ -80,9 +80,7 @@
     })
 
     $(window).resize(() => {
-        if (window.outerWidth >= 741) {
-            $('#sideNav').css('display', 'block')
-        } else $('#sideNav').css('display', 'none')
+        window.outerWidth >= 741 ? $('#sideNav').css('display', 'block') : $('#sideNav').css('display', 'none')
     })
 
     $('.hamburger').click(() => {
