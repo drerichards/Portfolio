@@ -72,8 +72,6 @@
 }
 
 .sidenav {
-    position: fixed;
-    z-index: 7;
     display: none;
 }
 
@@ -106,7 +104,6 @@
         display: none;
     }
     .sidenav {
-        position: relative;
         display: block;
     }
     .innerNav h1 {

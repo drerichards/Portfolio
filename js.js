@@ -78,6 +78,13 @@
             marginLeft: "4px"
         }, 200)
     })
+
+    $(window).resize(() => {
+        if (window.outerWidth >= 741) {
+            $('#sideNav').css('display', 'block')
+        } else $('#sideNav').css('display', 'none')
+    })
+
     $('.hamburger').click(() => {
         hamToggle()
     })
