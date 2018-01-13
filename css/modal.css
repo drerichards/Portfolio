@@ -48,7 +48,7 @@
 }
 
 .featherlight .featherlight-inner main span ul {
-    padding: 0 5%;
+    margin: 0 5%;
 }
 
 .featherlight .featherlight-inner aside {
@@ -60,7 +60,7 @@
 
 .featherlight .featherlight-inner aside div {
     width: 100%;
-    height: 22em;
+    height: 20em;
     background-size: auto;
     background-position: top center;
     background-repeat: no-repeat;

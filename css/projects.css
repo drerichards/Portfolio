@@ -96,6 +96,10 @@
     align-items: center;
 }
 
+.projectBox span div a {
+    display: block;
+    margin-block-start: 3%;
+}
 .projectBox i {
     cursor: pointer;
     -webkit-transform: perspective(1px) translateZ(0);
