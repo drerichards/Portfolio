@@ -80,7 +80,7 @@
     })
 
     $(window).resize(() => {
-        window.outerWidth >= 741 ? $('#sideNav').css('display', 'block') : $('#sideNav').css('display', 'none')
+        window.outerWidth >= 813 ? $('#sideNav').css('display', 'block') : $('#sideNav').css('display', 'none')
     })
 
     $('.hamburger').click(() => {
@@ -89,7 +89,7 @@
 }
 
 const hamToggle = () => {
-    if ($(window).width() < 741) {
+    if ($(window).width() < 813) {
         $('#sideNav').toggle('slide')
         $('.hamburger').toggleClass("change")
     }
