@@ -12,6 +12,7 @@
     font-weight: lighter;
     vertical-align: text-bottom;
     font-family: 'Cutive Mono', serif;
+    font-size: 1.2em;
     display: inline-block;
 }
 
@@ -32,7 +33,7 @@
 }
 
 .menuIcons img {
-    margin-top: 2%;
+    margin: 0;
     width: 6%;
     display: inline-block;
     float: none;
@@ -44,7 +45,7 @@
 
 .menuIcons p {
     display: inline-block;
-    margin: 0 0 1% 1%;
+    margin: 4% 0 1% 1%;
     vertical-align: bottom;
 }
 
@@ -67,7 +68,6 @@
         display: none;
     }
     .arrowEmail h2 {
-        font-size: 1.2em;
         margin: 4% 0 4% 3%;
         letter-spacing: -0.9px;
     }
