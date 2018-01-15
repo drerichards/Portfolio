@@ -89,12 +89,11 @@
         width: auto;
         height: 100%;
     }
-
-    .featherlight .featherlight-inner section{
-            display: flex;
-            flex-direction: column;
-            color: #000;
-            align-items: center;
+    .featherlight .featherlight-inner section {
+        display: flex;
+        flex-direction: column;
+        color: #000;
+        align-items: center;
     }
     .featherlight .featherlight-inner main p {
         margin: 0 0 2% 2%;
