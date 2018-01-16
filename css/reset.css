@@ -22,7 +22,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    /* overflow-y: auto; */
     overflow-x: hidden;
     position: fixed;
 }
@@ -49,6 +48,13 @@ ul {
 
 img {
     border-style: none;
+}
+
+p,
+li {
+    /* letter-spacing: 1px; */
+    font-size: 85%;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 button,
