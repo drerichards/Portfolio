@@ -52,9 +52,10 @@ img {
 
 p,
 li {
-    /* letter-spacing: 1px; */
-    font-size: 85%;
-    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 100%;
+    font-family: 'Cormorant',
+    sans-serif;
 }
 
 button,
