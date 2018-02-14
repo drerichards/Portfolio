@@ -34,3 +34,9 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (min-width: 741px) {
+    .boxContent img {
+        width: 23%;
+    }
+}
