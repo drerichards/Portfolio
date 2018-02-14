@@ -3,25 +3,23 @@
     line-height: 1.5;
 }
 
-.contactSection h3 {
+.contactSection h4 {
     font-weight: lighter;
-    font-size: 1.2em;
 }
 
 .contactSection h2 {
-    font-weight: lighter;
     vertical-align: text-bottom;
-    font-family: 'Cutive Mono', serif;
     font-size: 1.2em;
     display: inline-block;
+    margin-left: 1em;
 }
 
 .menuIcons {
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .menuIcons h6 {
-    font-size: 1.1em;
+    font-weight: lighter;
 }
 
 .menuIcons a {
@@ -34,6 +32,7 @@
 
 .menuIcons img {
     margin: 0;
+    margin-top: 2%;    
     width: 6%;
     display: inline-block;
     float: none;
@@ -58,6 +57,94 @@
 .arrowEmail .contactArrow {
     width: 4%;
     margin-left: -4px;
+}
+
+@-webkit-keyframes wobble {
+    16.65% {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+    33.3% {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    49.95% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+    66.6% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
+    }
+    83.25% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes wobble {
+    16.65% {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+    33.3% {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    49.95% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+    66.6% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
+    }
+    83.25% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.wobble {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    padding-right: 2.2em;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.wobble:before {
+    content: "\f105";
+    position: absolute;
+    left: -1em;
+    font-family: FontAwesome;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.wobble:hover:before,
+.wobble:focus:before,
+.wobble:active:before {
+    -webkit-animation-name: wobble;
+    animation-name: wobble;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
 
 @media screen and (min-width: 320px) and (max-width: 740px) and (orientation: portrait) {

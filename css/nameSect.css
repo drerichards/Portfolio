@@ -7,7 +7,8 @@
     height: 100%;
     min-height: 500px;
     padding: 0 12%;
-    font-family: 'Cutive Mono', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 32px;
     justify-content: center;
     text-shadow: 4px 4px 5px #000;
     overflow: hidden;
@@ -20,15 +21,17 @@
     font-weight: 200;
     position: relative;
     overflow: hidden;
+    padding: 1% 0;
 }
 
 .nameDisplay h1 {
     margin: 5% 0 4%;
-    font-size: 3.5em;
-    font-family: 'Special Elite', serif;
+    font-size: 4.5em;
     font-weight: 100;
     overflow: hidden;
     position: relative;
+    padding: 2% 1%;
+    line-height: 60px;
 }
 
 .nameDisplay h4 {
@@ -57,8 +60,8 @@
     opacity: 0.425;
     position: absolute;
     left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 49%;
+    transform: translateY(-49%);
 }
 
 @media screen and (min-width: 320px) and (max-width: 740px) and (orientation: landscape) {
@@ -73,6 +76,17 @@
         padding: 0 10%;
     }
     .nameDisplay h1 {
-        margin: 5% 5% 4%;
+        margin: 2% 3%;
+    }
+    .circle {
+        height: 22em;
+        width: 24em;
+        background-color: red;
+        border-radius: 100%;
+        opacity: 0.425;
+        position: absolute;
+        left: 10%;
+        top: 46%;
+        transform: translateY(-44%);
     }
 }

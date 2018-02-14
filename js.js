@@ -53,32 +53,6 @@
         hamToggle()
     })
 
-    $('.arrowEmail').mouseenter(() => {
-        $('.contactArrow').animate({
-            marginLeft: "4px"
-        }, 300, 'swing', () => {
-            $('.contactArrow').animate({
-                marginLeft: "4px"
-            }, 300)
-        })
-        $('.arrowEmail h2').animate({
-            marginLeft: "-6px"
-        }, 300, 'swing', () => {
-            $('.arrowEmail h2').animate({
-                marginLeft: "-6px"
-            }, 300)
-        })
-    })
-
-    $('.arrowEmail').mouseout(() => {
-        $('.contactArrow').animate({
-            marginLeft: "-4px"
-        }, 200)
-        $('.arrowEmail h2').animate({
-            marginLeft: "4px"
-        }, 200)
-    })
-
     $(window).resize(() => {
         window.outerWidth >= 813 ? $('#sideNav').css('display', 'block') : $('#sideNav').css('display', 'none')
     })

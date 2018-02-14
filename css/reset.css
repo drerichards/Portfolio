@@ -50,12 +50,21 @@ img {
     border-style: none;
 }
 
+h1,
+h2,
+h3 {
+    letter-spacing: 0.5px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
 p,
-li {
+li,
+h4,
+h5,
+h6 {
     letter-spacing: 0.5px;
     font-size: 90%;
-    font-family: 'Cormorant',
-    sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 button,

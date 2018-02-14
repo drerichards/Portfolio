@@ -1,6 +1,6 @@
 .menuBtn {
     display: block;
-    font-family: 'Cutive Mono', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.25em;
     font-weight: lighter;
     background-color: transparent;
@@ -9,28 +9,31 @@
     text-decoration: none;
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
-    -webkit-transition: .3s ease-in-out;
-    -moz-transition: .3s ease-in-out;
-    -o-transition: .3s ease-in-out;
-    -ms-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: .25s cubic-bezier(0.1, 0.5, 0.5, 1);
+    -moz-transition: .25s cubic-bezier(0.1, 0.5, 0.5, 1);
+    -o-transition: .25s cubic-bezier(0.1, 0.5, 0.5, 1);
+    -ms-transition: .25s cubic-bezier(0.1, 0.5, 0.5, 1);
+    transition: .25s cubic-bezier(0.1, 0.5, 0.5, 1);
+    -webkit-transition-delay: 0.08s;
+    -moz-transition-delay: 0.08s;
+    -o-transition-delay: 0.08s;
+    -ms-transition-delay: 0.08s;
+    transition-delay: 0.08s;
+    cursor: pointer;
 }
 
 .menuBtn:hover {
-    cursor: pointer;
     border-top: 2px solid #ffffff;
     border-bottom: 2px solid #ffffff;
-    padding: 6px 0;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
 .selected {
     border-top: 2px solid rgb(132, 159, 163);
     border-bottom: 2px solid rgb(132, 159, 163);
-    padding: 6px 0;
-    font-family: 'Special Elite', serif;
+    padding: 20px 0;
     letter-spacing: 4px;
-    font-weight: lighter;
+    font-weight: 600;
 }
 
 .hamburger {
@@ -89,7 +92,6 @@
 .innerNav h1 {
     text-align: center;
     padding: 6px 0;
-    font-family: 'Special Elite', serif;
     letter-spacing: 4px;
     font-weight: lighter;
     display: none;
@@ -110,7 +112,6 @@
         display: none;
         position: absolute;
         top: 8%;
-        font-family: 'Cutive Mono', serif;
         font-size: 1.5em;
         right: 50%;
         transform: translateX(50%);
