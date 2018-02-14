@@ -20,8 +20,9 @@
 }
 
 .boxContent img {
-    margin: 1% 1% 2%;
+    margin: 1% 2% 2%;
     float: right;
+    width: 45%;
 }
 
 .aboutSection {
