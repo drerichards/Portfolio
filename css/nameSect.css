@@ -10,7 +10,7 @@
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 32px;
     justify-content: center;
-    text-shadow: 4px 4px 5px #000;
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
     overflow: hidden;
     position: relative;
 }
@@ -27,9 +27,9 @@
 .nameDisplay h1 {
     margin: 5% 0 4%;
     font-size: 4.5em;
-    font-weight: 100;
     overflow: hidden;
     position: relative;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.829);
     padding: 2% 1%;
     line-height: 60px;
 }
