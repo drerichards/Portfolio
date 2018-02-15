@@ -23,14 +23,12 @@
 }
 
 .menuBtn:hover {
-    border-top: 2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
     letter-spacing: 4px;
 }
 
 .selected {
-    border-top: 2px solid rgb(132, 159, 163);
-    border-bottom: 2px solid rgb(132, 159, 163);
+    border-top: 0.5px solid rgb(132, 159, 163);
+    border-bottom: 0.5px solid rgb(132, 159, 163);
     padding: 20px 0;
     letter-spacing: 4px;
     font-weight: 600;
