@@ -1,6 +1,5 @@
 .nameDisplay {
     display: flex;
-    flex-wrap: wrap;
     text-align: left;
     flex-direction: column;
     width: 100%;
