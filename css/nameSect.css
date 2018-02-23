@@ -65,7 +65,10 @@
 
 @media screen and (min-width: 400px) {
     .circle {
-        left: 5%;
+        left: 10%;
+    }
+    .nameDisplay {
+        padding: 0 12%;
     }
     .nameDisplay h1 {
         font-size: 4em;
@@ -86,7 +89,7 @@
     }
     .nameDisplay h1 {
         margin: 2% 3%;
-        font-size: 4.5em;
+        font-size: 4.3em;
     }
     .circle {
         left: 10%;
