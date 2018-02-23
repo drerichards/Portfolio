@@ -1,1 +1,99 @@
+.nameDisplay {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    padding: 0 5%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 32px;
+    justify-content: center;
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
+    overflow: hidden;
+    position: relative;
+}
 
+.nameDisplay h3 {
+    font-size: 3em;
+    margin-bottom: 0;
+    font-weight: 200;
+    position: relative;
+    overflow: hidden;
+    padding: 1% 0;
+}
+
+.nameDisplay h1 {
+    margin: 4% 0;
+    font-size: 3.5em;
+    overflow: hidden;
+    position: relative;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.829);
+    padding: 2% 1%;
+    line-height: 60px;
+}
+
+.nameDisplay h4 {
+    text-align: right;
+    margin-top: 0;
+    font-size: 2em;
+    font-weight: 100;
+    position: relative;
+    overflow: hidden;
+}
+
+.nameDisplay h5 {
+    text-align: right;
+    margin-top: 0;
+    font-size: 1.3em;
+    font-weight: 100;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle {
+    height: 22em;
+    width: 24em;
+    background-color: red;
+    border-radius: 100%;
+    opacity: 0.425;
+    position: absolute;
+    left: 0%;
+    top: 49%;
+    transform: translateY(-49%);
+}
+
+@media screen and (min-width: 450px) {
+    .circle {
+        left: 10%;
+    }
+    .nameDisplay {
+        padding: 0 12%;
+    }
+    .nameDisplay h1 {
+        font-size: 4em;
+        margin: 5% 5% 4%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 740px) and (orientation: landscape) {
+    .nameDisplay h1 {
+        font-size: 5em;
+        margin: 5% 5% 4%;
+    }
+}
+
+@media screen and (min-width: 741px) {
+    .nameDisplay {
+        padding: 0 10%;
+    }
+    .nameDisplay h1 {
+        margin: 2% 3%;
+        font-size: 4.3em;
+    }
+    .circle {
+        left: 10%;
+        top: 46%;
+        transform: translateY(-44%);
+    }
+}
